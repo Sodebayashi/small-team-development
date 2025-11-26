@@ -1,15 +1,30 @@
 @charset "utf-8";
+
 body {
-  margin: 0;
-  font-family: sans-serif;
-  background: #f0f8ff;
+    margin: 0;
+    font-family: sans-serif;
+    background: #f0f8ff;
 }
 
-.header {
-  background: #98d698;
-  padding: 15px;
-  display: flex;
-  justify-content: space-around;
-  font-size: 20px;
-  font-weight: bold;
+header {
+    background: #98d698;
+}
+
+.global-nav {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 15px;
+}
+
+.global-nav li {
+    list-style: none;
+}
+
+.global-nav ul {
+    margin: 0;
+    padding: 0;
 }
