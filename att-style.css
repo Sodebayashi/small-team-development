@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.profile {
+    text-align: center;
+    width: 300px;
+}
+
+.profile img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-name {
+    margin-top: 10px;
+    color: #4169e1;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.profile-text {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.image-area img {
+    width: 260px;
+    display: block;
+    margin-bottom: 20px;
+}
