@@ -32,6 +32,7 @@
 }
 
 .image-area img {
+    width: 400px;
     display: block;
     margin-bottom: 20px;
 }
